@@ -75,8 +75,32 @@
     <br>
     <br>
 
-    
+
     <p id="bookmark"> this a paragraph </p>
+<form action="server.php">
+    <fieldset>
+        <legend> Personal Information: </legend>
+        First Name: <br>
+        <input type="text" name="firstname" value="" placeholder=" First Name here"><br>
+        Last Name: <br>
+        <input type="text" name="lastname" value="" placeholder=" Last Name here"><br>
+        <input type="radio" name="options"> option 1
+        <input type="radio" name="options"> option 2<br>
+        <input type="checkbox" name="checkboxes" checked> checkbox 1
+        <input type="checkbox" name="checkboxes"> checkbox 2
+        <input type="checkbox" name="checkboxes"> checkbox 3<br>
+        <label for="cars"id="carSelect"> Select:</label>
+        <select name="cars" id="carSelect" multiple >
+            <option value="BMW" selected>BMW</option>
+            <option value="Volvo">Volvo </option>
+            <option value="Audi">Audi</ption>
+        </select><br>
+
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+<button> Click Me</button>
+<!--some javascript-->
 
 </body>    
 </html>
